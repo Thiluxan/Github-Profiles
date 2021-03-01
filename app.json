@@ -1,0 +1,12 @@
+{
+  "name": "GithubProfiles",
+  "displayName": "GithubProfiles",
+  "expo": {
+    "name": "GithubProfiles",
+    "slug": "GithubProfiles",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
