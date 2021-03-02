@@ -35,13 +35,12 @@ export default function RepoList({route,navigation}) {
             <FlatList
                 contentContainerStyle={{backgroundColor:'#E8E8E8',marginTop:5}}
                 data={repos}
-                keyExtractor={({ id }, index) => id}
                 renderItem={({item}) => (
                     <Card style={styles.card}>
                         <Card.Title>{item.name}</Card.Title>
                         <Card.Divider/>
                         <Text style={styles.cardText}>
-                            {item.created} <br/>
+                            {item.created} {"\n"}
                             {item.url}
                         </Text>
                     </Card>
